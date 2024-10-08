@@ -22,7 +22,7 @@
 
 ul li{
     list-style: none;
-    padding: 5px 10px;
+    padding: 10px;
 }
 
 .space-between{
@@ -54,13 +54,29 @@ header{
     gap: 10px;
 }
 
-.column{
+.item{
     width: calc((100% - 20px) / 3);
-    
-    
+    position: relative;
 }
 
-.column img{
+.badge{
+    position: absolute;
+    top: 80%;
+    left: 5px;
+    background-color: red;
+}
+
+.heart{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: white;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+}
+.item img{
+    
     width: 100%;
     display: block;
 }
